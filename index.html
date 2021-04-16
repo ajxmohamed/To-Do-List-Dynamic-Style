@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+        <link rel="stylesheet" href="style.css" />
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Orelega+One&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    </head>
+    <body>
+        <!-- header Element and parent of all element -->
+        <header>
+            <!-- header set for colors only-->
+            <div class="main-header">
+                <h1 style="color: #0097e6;">Item Lister (To-Do LIST)</h1>
+                <input type="text" id="filter" placeholder="Search Item...">
+            </div>
+        </header>
+        <!-- main body include all of Element = parent of all elements -->
+        <div class="main-body">
+            <h1 style="margin: 12px;">Add Items</h1>
+            <input type="text" id="written">
+
+            <button id="sub-btn">Submit</button>
+            <button id="remove-btn">Delete</button>
+            
+            <div class="items-parent">
+
+                <h2 style="margin: 12px;">Items</h2>
+
+                <ul id="dynamic">
+                    <!-- <li>Items 1<button>X</button></li>
+                    <li>Items 2<button>X</button></li>
+                    <li>Items 3<button>X</button></li>
+                    <li>Items 4<button>X</button></li> -->
+                </ul>
+            </div>
+        </div>
+        <script src="main.js"></script>
+    </body>
+</html>
